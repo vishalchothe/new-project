@@ -9,6 +9,7 @@ import com.lombok_poc.model.Student;
 public class LombokPocApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Hello.."); 
 		SpringApplication.run(LombokPocApplication.class, args);
 
 		Student s = new Student();
